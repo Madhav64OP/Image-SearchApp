@@ -9,6 +9,9 @@ body{
     color:#fff ;
     background-image: url("background.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
 }
 h1{
     text-align: center;
@@ -21,12 +24,10 @@ form{
     max-width: 600px;
     margin: auto;
     height: 80px;
-    /* background-color: #39297b; */
     display: flex;
     align-items: center;
 }
 form input{
-    /* flex: 1; */
     height: 65%;
     width: 100%;
     border: 0;
